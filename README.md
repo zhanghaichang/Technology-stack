@@ -1,7 +1,5 @@
 # Technology-stack 技术栈
 
----
-
 简介
 
 
@@ -106,13 +104,6 @@
 	* [详解当当网的分布式作业框架elastic-job](http://www.infoq.com/cn/articles/dangdang-distributed-work-framework-elastic-job)
 	* [TBSchedule](http://blog.csdn.net/taosir_zhang/article/details/50728362)
 
-*   大数据
-	* [Hbase](middle-software/Hbase.md)
-	* [Spark](middle-software/Spark.md)
-	* [Hadoop](middle-software/Hadoop.md)
-	* [Hive](middle-software/Hive.md)
-	* [other框架](middle-software/big-data.md)
-
 *  其它
 	* [数据库binlog的增量订阅&消费组件](https://github.com/alibaba/canal)
 	* [数据库同步系统](https://github.com/alibaba/otter)
@@ -127,13 +118,6 @@
 * [编码前3000问](system-architecture/编码前3000问.md)
 
 
-### 项目管理
-
-* [论需求调研的重要性](project-management/论需求调研的重要性.md)
-* [项目管理](project-management/project-management.md)
-* [代码管理](project-management/code.md)
-* [测试相关](project-management/test.md)
-
 
 ### 运维
 
@@ -142,7 +126,6 @@
 *	[本地代码调试](ops/本地代码调试.md)
 * 	[Docker](ops/docker.md)
 
-### 个人成长
 
 
 
@@ -156,8 +139,3 @@
 *	[回车与换行的区别](other/回车与换行的区别.md)
 *   [github上fork项目后，如何同步更新后面提交](http://blog.csdn.net/qq1332479771/article/details/56087333)
 
-
-
-### Lisence
-
-Lisenced under [Apache 2.0 lisence](http://opensource.org/licenses/Apache-2.0)
