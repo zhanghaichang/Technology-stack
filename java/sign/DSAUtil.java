@@ -1,4 +1,12 @@
 public class DSAUtil {
+	
+	/**
+	*
+	* DSA为非对称加密，非对称加密指加密与解密所使用的密钥不同，分为公钥和私钥，DSA还有数字签名。例如：app发起支付时，
+	* 使用私钥(私钥一般放服务器用时获取)对订单串生成签名，然后将订单串与签名一起传给服务器，服务器使用公钥和订单串进行签名校验，
+	* 返回true表示校验通过，否则订单信息就是伪造的
+	*/
+	
 	private static final String algorithm = "DSA";
 	private static final String KEY_PUBLIC = "PublicKey";
 	private static final String KEY_PRIVATE = "PrivateKey";
