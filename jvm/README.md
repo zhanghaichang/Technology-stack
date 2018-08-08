@@ -10,4 +10,3 @@
 
 * [4.Java虚拟机OOM--方法区溢出](JavaMethodAreaOOM.md)
 
-* [5.Java虚拟机OOM--OutOfMemoryError 异常详解及解决方法](OutOfMemoryError.md)
