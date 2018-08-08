@@ -35,4 +35,4 @@
 
 下图：Hotspot 的 Heap 分区
 
-![](https://img-blog.csdn.net/20150402144231726)
+![](iamges/20150402144231726.png)
