@@ -1,5 +1,5 @@
 ## Java虚拟机--OutOfMemoryError 异常详解及解决方法
-![](../images/20150414175327108)
+![](../images/20150414175327108.png)
 
 上图是一张Java运行时的内存分布图，可知虚拟机内存都有发生OutOfMemoryError（下文称 OOM）异常的可能，作为一个合格的Java开发人员，我们应该做到的是：
 
