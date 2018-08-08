@@ -32,6 +32,7 @@ public class HeapOOM {
 ```
 为了能够看到内存溢出时候的状态信息，在项目右键–run as –run configuration –Arguments
 
+![](../images/20150414180652962.png)
 
 
 然后可以看到爆出一下错误：
