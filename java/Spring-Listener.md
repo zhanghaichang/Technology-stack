@@ -158,7 +158,7 @@
 
 *   执行结果
 
-![](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="393"></svg>)
+![](https://user-gold-cdn.xitu.io/2019/1/1/1680822d81776a67?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 ## SpringBoot 中的事件体系
 -----------------
@@ -193,7 +193,7 @@
 
 下面再来看下 `SimpleApplicationEventMulticaster` 的类集成结构：
 
-![](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="537"></svg>)
+![](https://user-gold-cdn.xitu.io/2019/1/1/1680830a7fd2c4b5?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 这里的 `AbstractApplicationContext` 下面来聊，这个类实际上就负责了事件体系的初始化工作。
 
@@ -201,7 +201,7 @@
 
 事件体系的初始化对应在 `SpringBoot`启动过程的 `refreshContext`这个方法；`refreshContext`具体调用 AbstractApplicationContext.refresh()方法，最后调用 initApplicationEventMulticaster() 来完成事件体系的初始化,代码如下：
 
-![](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="550"></svg>)
+![](https://user-gold-cdn.xitu.io/2019/1/1/1680835fb264f84a?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 用户可以为容器定义一个自定义的事件广播器，只要实现 `ApplicationEventMulticaster` 就可以了，`Spring` 会通过 反射的机制将其注册成容器的事件广播器，如果没有找到配置的外部事件广播器，`Spring` 就是默认使用 `SimpleApplicationEventMulticaster` 作为事件广播器。
 
@@ -209,7 +209,7 @@
 
 事件注册是在事件体系初始化完成之后做的事情，也是在 `AbstractApplicationContext.refresh()` 方法中进行调用的。
 
-![](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="571"></svg>)
+![](https://user-gold-cdn.xitu.io/2019/1/1/16808437ea8623d2?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 这里干了三件事：
 
@@ -223,7 +223,7 @@
 
 > org.springframework.context.support.AbstractApplicationContext#publishEvent
 > 
-> ![](data:image/svg+xml;utf8,<?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1280" height="954"></svg>)
+> ![](https://user-gold-cdn.xitu.io/2019/1/1/168084a716c01856?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 > earlyApplicationEvents 中的事件是广播器未建立的时候保存通知信息，一旦容器建立完成，以后都是直接通知。
 
